@@ -1,9 +1,9 @@
 import { Habit } from './habit';
 
 export type RootStackParamList = {
-  Home: undefined;
-  AddHabit: undefined;
-  HabitDetail: {
+  '/home': undefined;
+  '/add-habit': undefined;
+  '/habit-detail': {
     habit: Habit;
   };
 }; 
